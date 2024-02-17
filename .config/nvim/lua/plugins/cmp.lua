@@ -31,6 +31,9 @@ return {
           luasnip.lsp_expand(args.body)
         end
       },
+      performance = {
+        debounce = 150
+      },
 
       mapping = cmp.mapping.preset.insert({
         ["<Tab>"] = cmp.mapping(function(fallback)
