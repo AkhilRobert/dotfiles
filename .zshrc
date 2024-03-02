@@ -20,3 +20,6 @@ alias open=xdg-open
 
 # install asdf
 . "$HOME/.asdf/asdf.sh"
+
+# Path variables
+export PATH=/opt/cuda/bin:$PATH

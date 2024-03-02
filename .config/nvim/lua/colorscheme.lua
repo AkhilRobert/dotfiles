@@ -5,3 +5,21 @@ require("catppuccin").setup({
 })
 
 vim.cmd.colorscheme "catppuccin-frappe"
+
+-- require('vscode').setup({
+--   group_overrides = {
+--     -- DiagnosticUnnecessary = { underline = true },
+--   }
+-- })
+-- require('vscode').load()
+--
+
+-- require("tokyonight").setup({
+--   styles = {
+--     keywords = {
+--       italic = false,
+--     }
+--   }
+-- })
+--
+-- vim.cmd [[colorscheme tokyonight-storm]]

@@ -7,6 +7,10 @@ lsp.pylsp.setup {
       plugins = {
         -- type checker
         pylsp_mypy = { enabled = true },
+        pycodestyle = {
+          enabled = true,
+          maxLineLength = 150
+        }
       },
     },
   },
