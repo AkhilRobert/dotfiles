@@ -1,11 +1,12 @@
-require("catppuccin").setup({
-  flavor = "frappe",
-  no_italic = true,
-  no_bold = true
-})
+-- require("catppuccin").setup({
+--   flavor = "frappe",
+--   no_italic = true,
+--   no_bold = true
+-- })
+--
+-- vim.cmd.colorscheme "catppuccin-frappe"
 
-vim.cmd.colorscheme "catppuccin-frappe"
-
+-- vim.o.background = 'dark'
 -- require('vscode').setup({
 --   group_overrides = {
 --     -- DiagnosticUnnecessary = { underline = true },
@@ -13,6 +14,8 @@ vim.cmd.colorscheme "catppuccin-frappe"
 -- })
 -- require('vscode').load()
 --
+
+vim.cmd [[colorscheme vscode]]
 
 -- require("tokyonight").setup({
 --   styles = {
