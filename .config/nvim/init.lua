@@ -56,6 +56,7 @@ require('lazy').setup("plugins", {
 require("keymappings")
 require("colorscheme")
 require("lsp")
+require("snippets").setup()
 
 vim.api.nvim_set_hl(0, "TSRainbowYellow", { fg = "#FFD700" })
 vim.api.nvim_set_hl(0, "TSRainbowMagenta", { fg = "#DA70D6" })
