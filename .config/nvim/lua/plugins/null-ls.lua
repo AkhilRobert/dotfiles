@@ -25,13 +25,6 @@ return {
       });
     end
 
-    local codespell = function()
-      return diagnostics.codespell.with({
-        extra_args = { "-I", "/Users/akhilrobert/Documents/dictionary.txt" }
-      })
-    end
-
-
     local sources = {
       -- ts, js
       -- prettier
@@ -48,9 +41,6 @@ return {
 
       -- rust
       formatter.rustfmt,
-
-      -- spelling
-      codespell(),
 
       --git
       code_actions.gitsigns,
