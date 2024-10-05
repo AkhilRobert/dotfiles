@@ -7,19 +7,14 @@ export LANG=en_US.UTF-8
 # Current ohmyzsh theme
 ZSH_THEME="fishy"
 
-plugins=(git)
+# install zsh-syntax-highlighting and zsh-autosuggestions
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
-
-# Syntax highlighting, Don't forget to install
-# https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-# Auto suggestions https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 alias open=xdg-open
 
 # install asdf
-. "$HOME/.asdf/asdf.sh"
+# . "$HOME/.asdf/asdf.sh"
 
 # Path variables
 export PATH=/opt/cuda/bin:$PATH

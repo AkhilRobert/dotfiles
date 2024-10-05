@@ -1,0 +1,5 @@
+[font]
+normal = {family = "source code pro"}
+bold = {family = "source code pro", style = "Normal"}
+size = 10.5
+offset = { x = 1, y = -4 } 
