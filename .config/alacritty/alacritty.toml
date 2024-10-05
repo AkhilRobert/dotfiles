@@ -1,5 +1,9 @@
+import = [
+  "~/.config/alacritty/sonokai.toml"
+]
+
 [font]
-normal = {family = "source code pro"}
-bold = {family = "source code pro", style = "Normal"}
-size = 10.5
-offset = { x = 1, y = -4 } 
+normal = {family = "SauceCodePro Nerd Font"}
+bold = {family = "SauceCodePro Nerd Font", style = "Normal"}
+size = 10
+offset = { x = 1, y = -2 } 
