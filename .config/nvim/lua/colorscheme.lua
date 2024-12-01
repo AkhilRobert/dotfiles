@@ -16,7 +16,8 @@
 --
 
 -- vim.cmd [[colorscheme vscode]]
-vim.cmd[[colorscheme sonokai]]
+-- vim.cmd [[colorscheme sonokai]]
+vim.cmd [[ colorscheme onedark_dark ]]
 
 -- require("tokyonight").setup({
 --   styles = {

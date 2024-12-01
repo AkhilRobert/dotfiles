@@ -4,5 +4,6 @@ return {
   },
   { "folke/tokyonight.nvim" },
   { "catppuccin/nvim" },
-  { "sainnhe/sonokai" }
+  { "sainnhe/sonokai" },
+  { "olimorris/onedarkpro.nvim" },
 }
