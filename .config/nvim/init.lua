@@ -61,10 +61,3 @@ require("snippets").setup()
 vim.api.nvim_set_hl(0, "TSRainbowYellow", { fg = "#FFD700" })
 vim.api.nvim_set_hl(0, "TSRainbowMagenta", { fg = "#DA70D6" })
 vim.api.nvim_set_hl(0, "TSRainbowBlue", { fg = "#159FFF" })
-
--- vim.api.nvim_create_autocmd("LspAttach", {
---   callback = function(args)
---     local client = vim.lsp.get_client_by_id(args.data.client_id)
---     client.server_capabilities.semanticTokensProvider = nil
---   end,
--- });

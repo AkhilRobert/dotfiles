@@ -5,5 +5,12 @@ return {
   { "folke/tokyonight.nvim" },
   { "catppuccin/nvim" },
   { "sainnhe/sonokai" },
-  { "olimorris/onedarkpro.nvim" },
+  { "navarasu/onedark.nvim" },
+  { "sainnhe/edge" },
+  {
+    "briones-gabriel/darcula-solid.nvim",
+    dependencies = {
+      "rktjmp/lush.nvim"
+    },
+  }
 }

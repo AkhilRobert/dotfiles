@@ -23,6 +23,6 @@ return {
     { "<leader>ln", "<cmd>Lspsaga rename<CR>" },
     { "<leader>la", "<cmd>Lspsaga code_action<CR>" },
     { "<leader>ld", "<cmd>Lspsaga show_line_diagnostics<CR>" },
-    { "<leader>lf", "<cmd>Lspsaga lsp_finder<CR>" }
+    { "<leader>lf", "<cmd>Lspsaga finder<CR>" }
   }
 }
