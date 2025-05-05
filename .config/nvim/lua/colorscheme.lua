@@ -9,10 +9,10 @@
 vim.o.background = 'dark'
 require('vscode').setup({
   group_overrides = {
-    -- DiagnosticUnnecessary = { underline = true },
+    DiagnosticUnnecessary = { underline = true },
   }
 })
-require('vscode').load()
+-- require('vscode').load()
 --
 
 vim.cmd [[colorscheme vscode]]
