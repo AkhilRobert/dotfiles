@@ -1,9 +1,9 @@
 [font]
-normal = {family = "Droid Sans Mono"}
-bold = {family = "Droid Sans Mono", style = "Regular"}
-italic = {family = "Droid Sans Mono", style = "Regular"}
-size = 8.8
-offset = { x = 1, y = -1 } 
+normal = {family = "DroidSans Mono", style = "Light"}
+bold = {family = "DroidSans Mono", style = "Light"}
+italic = {family = "DroidSans Mono", style = "Light"}
+size = 9
+offset = { x = 1, y = -2 } 
 
 [general]
 import = [

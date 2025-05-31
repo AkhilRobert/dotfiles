@@ -20,6 +20,8 @@ return {
       -- go
       formatter.goimports,
 
+      formatter.clang_format,
+
       --git
       code_actions.gitsigns,
     }
@@ -33,9 +35,7 @@ return {
           group = augroup,
           buffer = bufnr,
           callback = function()
-            if false then
-              vim.lsp.buf.format({ bufnr = bufnr })
-            end
+            vim.lsp.buf.format({ bufnr = bufnr })
           end,
         })
       end

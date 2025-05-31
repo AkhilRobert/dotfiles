@@ -16,6 +16,7 @@ require('vscode').setup({
 --
 
 vim.cmd [[colorscheme vscode]]
+-- vim.cmd [[colorscheme onedark]]
 vim.cmd [[set nocursorline]]
 -- vim.cmd [[colorscheme sonokai]]
 -- vim.cmd [[ colorscheme onedark_dark ]]

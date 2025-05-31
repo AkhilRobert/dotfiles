@@ -19,6 +19,9 @@ alias open=xdg-open
 # Path variables
 export PATH=/opt/cuda/bin:$PATH
 export PATH="$HOME/Tools/bin/":$PATH
+# golang specific
+export PATH="$HOME/Tools/go/bin/":$PATH
+export PATH="$HOME/go/bin/":$PATH
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 # export SDKMAN_DIR="$HOME/.sdkman"
