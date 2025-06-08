@@ -12,7 +12,7 @@ lsp.lua_ls.setup({
         library = vim.api.nvim_get_runtime_file('', true), -- Include Neovim runtime files in the workspace
       },
       telemetry = {
-        enable = false, -- Disable telemetry
+        enable = false,
       },
     },
   },

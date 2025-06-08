@@ -246,7 +246,7 @@ simplified_ui true
 // Choose the theme that is specified in the themes section.
 // Default: default
 // 
-theme "vscode_dark"
+theme "dracula"
  
 // Choose the base input mode of zellij.
 // Default: normal
@@ -291,7 +291,7 @@ default_layout "compact"
 //   - true (default, enabled)
 //   - false
 // 
-// pane_frames false
+pane_frames false
  
 // When attaching to an existing session with other users,
 // should the session be mirrored (true)
@@ -413,19 +413,4 @@ default_layout "compact"
 // 
 // support_kitty_keyboard_protocol false
 
-themes {
-    vscode_dark {
-        fg "#cccccc"
-        bg "#1e1e1e"
-        black "#1e1e1e"
-        red "#cd3131"
-        green "#0dbc79"
-        yellow "#e5e510"
-        blue "#2472c8"
-        magenta "#bc3fbc"
-        cyan "#11a8cd"
-        white "#e5e5e5"
-        orange "#CE9178"
-    }
-}
 
